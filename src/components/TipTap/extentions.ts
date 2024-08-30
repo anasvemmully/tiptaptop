@@ -24,6 +24,6 @@ export const extensions = [
     TableRow,
     TableHeader,
     TableCell,
-    TextStyle.configure({ types: [ListItem.name] }),
+    TextStyle,
     Color.configure({ types: [TextStyle.name, ListItem.name] }),
   ]
